@@ -8,23 +8,52 @@ body {
 	background-repeat:no-repeat;*/
 }
 
-nav {
-
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
 }
+
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 main {
 
 }
-header {
 
+#splash {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#services {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#team {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#quote {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 footer {
-	
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;	
 }
 
-div {
-	
-}
 img {
 
 }
