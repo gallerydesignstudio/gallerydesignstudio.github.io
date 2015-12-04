@@ -1,48 +1,75 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
-	font-family: lato;
-	color: #000;
-	/*background-image: url(../images/gallery_design_studio.jpg);
-	background-size: cover;	
-	background-repeat:no-repeat;*/
+	background-image: url('.images/gds_landing_image.jpg');
+	background-size: cover;
+	font-family: "lato", sans-serif;
+	font-size: 16px;
+	color: #222;	
 }
 
 header {
+	width: 1200px; margin: auto;position: fixed;
 	background-color: #ffed74;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 nav {
+	float: right,margin-top: 2em;
 	background-color: #e8c66a;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: #fff;
+}
+
+.column {
+	float: left;
+	width: 260px;
+  	height: 300px;
+	padding: 20px;
+	margin: 0;
 }
 
 main {
 
 }
 
-#splash {
+div {
+	padding: 15%;
+}
+
+
+section#splash {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+}
+
+section#services {
 	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#services {
+section#team {
 	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#team {
-	background-color: #ffe2b8;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#quote {
+section#quote {
 	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
@@ -58,16 +85,29 @@ img {
 
 }
 
-h1 {
-
+h1 span {
+	background: #6fdf00;font-size: 3em;line-height: 0;font-weight:100;color: #fff;
+	font-size: 2em;
 }
 
 h2 {
+	font-size: 2em;
+}
 
+ul {
+	list-style: none;
 }
 
 p {
 
+}
+
+.clearfix:after { 
+	content: “.”; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
 
 

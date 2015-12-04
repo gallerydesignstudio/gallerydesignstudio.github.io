@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+	background-image: url('../images/gds_landing_image.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	font-family: "lato", sans-serif;
+	font-size: 18px;
+	color: #222;	
+}
+
+header {
+	width: 1200px; 
+	margin: auto;
+	position: fixed;
+	background-color: none;
+	border: none;
+	padding: 20px;
+}
+
+logo {
+ max-width: 50px;
+}
+
+nav {
+	float: right,margin-top: 2em;
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: #fff;
+}
+
+.column {
+	float: left;
+	width: 260px;
+  	height: 300px;
+	padding: 20px;
+	margin: 0;
+}
+
+.team {
+	float: left; 
+	width: 260px;
+  	height: 300px;
+	padding: 20px;
+	margin: 0;
+}
+
+main {
+}
+
+div {
+	padding: 15%;
+}
+
+
+section#splash {
+	background-color: none;
+	border: none;
+	padding: 20px;
+	float: left;
+}
+
+section#services {
+	background-color: #fff;
+	border: none;
+	padding: 20px;
+	width: cover;
+}
+
+section#team {
+	background-color: #fff;
+	border: none;
+	padding: 20px;
+}
+
+section#quote {
+	background-color: #fff;
+	border: none;
+	padding: 20px;
+}
+
+footer {
+	background-color: none;
+	border: none;
+	padding: 20px;	
+}
+
+img {
+
+}
+
+h1 {
+	line-height: 4em;
+	width:30em;
+}
+
+h1 span {
+	background: #09a597;
+	font-size: 6em;
+	line-height: 0;
+	font-weight:100;
+	color: #fff;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 6em;
+	align: center;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+
+}
+
+.clearfix:after { 
+	content: “.”; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+
