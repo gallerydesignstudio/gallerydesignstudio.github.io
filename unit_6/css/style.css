@@ -10,8 +10,14 @@ header {
 	margin: auto;
 	padding: 1em;
 }
+
+header img {
+	position: absolute;
+	max-width: 500px;
+}
+
 section {
-	max-width:1200px;
+	max-width:100%;
 	margin:auto;
 	padding:1em;
 }
@@ -26,17 +32,19 @@ section#splash {
 section#splash div {
 	clear:both;
 	margin:auto;
-	max-width:1200px;
+	max-width:100%;
 	padding:10em 0 0;
 }
 section#services {
 }
 section#team {
+	clear:both;
 }
 section#quote {
 }
 
 footer {
+	clear:both;
 	padding: 20px;	
 }
 nav {
@@ -89,16 +97,21 @@ input[type="submit"] {
 }
 .column {
 	float: left;
-	width: 33.33%;
-	padding: 20px;
+	width: 33.3%;
+	padding: 40px;
 	margin: 0;
 }
 .team {
 	float: left; 
-	width: 260px;
+	width: 33.3%;
   	height: 300px;
-	padding: 20px;
+	padding: 40px;
 	margin: 0;
+}
+
+.quote{
+	clear:both;
+	text-align: center;
 }
 .clearfix:after { 
 	content: "."; 
