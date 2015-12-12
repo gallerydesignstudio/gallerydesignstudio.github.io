@@ -1,19 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0;}
 body {
 	font-family: "lato", sans-serif;
-	font-size: 18px;
-	color: #222;	
+	font-size: 14px;
+	font-weight: 100px;
+	line-height: 1.5em;
+	color: #222;
+	height: 100%;	
 }
+
+.body {
+min-height: 100%;
+/*put footer height*/
+margin-bottom: -61px;
+}
+
+.body:after {
+	content: "";
+	display: block;
+}
+
+
 header {
 	max-width: 1200px; 
 	margin: auto;
-	padding: 1em;
 }
 
 header img {
 	position: absolute;
-	max-width: 500px;
+	max-width: 175px;
+	padding: 1em;
 }
 
 section {
@@ -36,7 +52,17 @@ section#splash div {
 	padding:10em 0 0;
 }
 section#services {
+	background-image: url('../images/gds_landing_image.jpg');
 }
+
+.column img {
+ max-width: 40px;
+}
+
+.ourteam img {
+	max-width: 300px;
+}
+
 section#team {
 	clear:both;
 }
@@ -45,8 +71,9 @@ section#quote {
 
 footer {
 	clear:both;
-	padding: 20px;	
+	padding: 20px;
 }
+
 nav {
 	float: right;
 	margin-top: 2em;
@@ -71,42 +98,56 @@ h1 {
 h1 span {
 	background: #09a597;
 	font-size: 3em;
-	line-height: 0;
+	line-height: 0.5;
 	font-weight:100;
 	color: #fff;
 	padding:4px;
 }
+
 h2 {
-	font-size: 6em;
-	text-align: center;
-}
-h3 {
 	font-size: 3em;
+	text-align: center;
+	padding-bottom: 0.75em;
 }
+
+h3 {
+	font-size: 1.5em;
+	color: #09a597;
+	padding-bottom: 0.5em;
+}
+
 ul {
 	list-style: none;
 }
+
 input {
 	padding:1em 2em;
 }
+
 input[type="input"] {
 	
 }
 input[type="submit"] {
 	
 }
+p.intro p {
+	padding: 1em;
+}
 .column {
 	float: left;
-	width: 33.3%;
+	width: 25%;
+	padding: 1em;
+	margin: 0;
+}
+.ourteam {
+	float: left; 
+	width: 25%;
 	padding: 40px;
 	margin: 0;
 }
-.team {
-	float: left; 
-	width: 33.3%;
-  	height: 300px;
-	padding: 40px;
-	margin: 0;
+
+section#services {
+	background: #fff;
 }
 
 .quote{
@@ -119,4 +160,8 @@ input[type="submit"] {
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+
+#contact {
+   background-color: #09a597;
 }
