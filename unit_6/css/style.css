@@ -66,6 +66,7 @@ section#services {
 section#team {
 	clear:both;
 }
+
 section#quote {
 }
 
@@ -92,12 +93,12 @@ nav a:hover {
 	border-bottom:4px solid inherit;
 }
 h1 {
-	line-height: 4em;
-	width:30em;
+	line-height: 3.5em;
+	width:50%;
 }
 h1 span {
 	background: #09a597;
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 0.5;
 	font-weight:100;
 	color: #fff;
@@ -108,6 +109,13 @@ h2 {
 	font-size: 3em;
 	text-align: center;
 	padding-bottom: 0.75em;
+}
+
+.requestquote {
+	text-decoration: none;
+	font-size: 2em;
+	text-align: left;
+	border: 2px solid #white
 }
 
 h3 {
@@ -164,4 +172,72 @@ section#services {
 
 #contact {
    background-color: #09a597;
+}
+
+#socialmedia{
+text-align: right;	
+}
+
+@media screen and (min-width: 610px) {
+	nav.mobile {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 994px) {
+	h1 span { 
+		font-size: 2em;
+	}
+
+	h1{
+		line-height: 3em;
+	}
+}
+
+@media screen and (max-width: 801px) {
+	h1 span { 
+		font-size: 1.5em;
+	}
+
+	h1{
+		line-height: 2.5em;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	header img {
+	position: block;
+	max-width: 140px;
+	padding: 1em;
+	}
+
+	nav.clearfix {
+		display:none;
+	}
+	
+	nav.mobile {
+		background: #09a597;
+		padding: 1em;
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	h1 span { 
+		display: none;
+	}
+
+	h1{
+		line-height: 2em;
+	}
+
+	.requestquote {
+		display: none;
+	}
+
+	.link {
+		border-color: #fff;
+    	border-bottom-width: 1.5px;
+    	border-bottom-style: solid;
+    	width: 150%;
+	}
 }
